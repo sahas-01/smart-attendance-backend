@@ -14,4 +14,4 @@ Then run the following command in the terminal to install dependencies
 npm install
 ```
 
-To connect to mongodb open a separate terminal and type ```mongod``` , it will run locally
+To connect to mongodb open a separate terminal and type ```mongod``` , it will run locally on port 5000
