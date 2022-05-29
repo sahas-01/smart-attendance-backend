@@ -4,14 +4,25 @@
 To run this locally, please follow the below steps:
 
 ```bash
-git clone https://github.com/sahas-01/smart-attendance-backend
-cd smart-attendance-backend
+  git clone https://github.com/sahas-01/smart-attendance-backend/
 ```
 
-Then run the following command in the terminal to install dependencies
+Go to the project directory
 
-```
-npm install
+```bash
+  cd smart-attendance-backend
 ```
 
-To connect to mongodb open a separate terminal and type ```mongod``` , it will run locally on port 5000
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  node index (or) nodemon index
+```
+
+This will start the server on port 5000 locally, additionally make sure to run ```mongod``` before running the above command to setup the database
